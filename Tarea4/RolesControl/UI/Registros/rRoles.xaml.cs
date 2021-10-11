@@ -30,7 +30,7 @@ namespace RolesControl.UI.Registros
 
             PermisosComboBox.ItemsSource = PermisoBLL.GetPermisos();
             PermisosComboBox.SelectedValuePath = "PermisoId";
-            PermisosComboBox.DisplayMemberPath = "Permisos";
+            PermisosComboBox.DisplayMemberPath = "Descripcion";
         }
         private void Cargar()
         {
