@@ -62,7 +62,7 @@
 
   <ItemGroup>
     <None Update="DATA\RolesControl.db">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

@@ -77,7 +77,7 @@ namespace RolesControl.UI.Registros
         {
             if (!Validar())
                 return;
-            rol.RolesDetalle.Add(new RolesDetalle(rol.RolId, PermisosComboBox.SelectedIndex, ActivoCheckBox.IsEnabled));
+            rol.RolesDetalle.Add(new RolesDetalle(rol.RolId, (int)PermisosComboBox.SelectedValue, ActivoCheckBox.IsEnabled));
 
             Cargar();
 
